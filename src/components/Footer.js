@@ -1,19 +1,24 @@
-import { Link } from "react-router-dom";
 function Footer(props) {
   return (
     <div>
       <ul>
         <li>
-          <Link to="/">LinkedIn</Link>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/michael-bubel-b95268155/"
+          >
+            LinkedIn
+          </a>
         </li>
         <li>
-          <Link to="">GitHub</Link>
+          <a target="_blank" href="https://www.facebook.com/heyitsmichaelbubel">
+            Facebook
+          </a>
         </li>
         <li>
-          <Link to="">Facebook</Link>
-        </li>
-        <li>
-          <Link to="">Email</Link>
+          <a target="_blank" href="https://github.com/mbubel">
+            GitHub
+          </a>
         </li>
       </ul>
     </div>
