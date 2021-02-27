@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
+import Projects from "./components/Projects"
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/projects" exact component={Projects} />
           </Switch>
           <Footer/>
         </div>

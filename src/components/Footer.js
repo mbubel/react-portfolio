@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function Header(props) {
+function Footer(props) {
   return (
     <div>
       <ul>
@@ -20,4 +20,4 @@ function Header(props) {
   );
 }
 
-export default Header;
+export default Footer;
