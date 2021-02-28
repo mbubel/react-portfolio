@@ -1,6 +1,6 @@
 function About(props) {
   return (
-    <div>
+    <div className="about-text">
       <p>
         Born and raised in Rancho San Diego, I spent most of my childhood either
         playing some sort of video game or skateboarding with my friends.{" "}
