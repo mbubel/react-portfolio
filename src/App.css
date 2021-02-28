@@ -1,11 +1,11 @@
 .App,
 body {
   background-image: url("./assets/bear-deer-mountains-sunrise-minimalism-artwork-4k_1540751508.jpg");
-  background-size: cover;
-  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
-
-div.container p {
+.name-text {
   margin: 0;
   position: absolute;
   top: 40%;
@@ -14,16 +14,23 @@ div.container p {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 75px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 .about-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
   color: white;
+  font-size: 75px;
 }
 .header {
   text-align: center;
   padding: 10px;
 }
-
 .footer {
   text-align: center;
 }

@@ -1,9 +1,13 @@
 function Home(props) {
   return (
     <div className="container">
-        <p>
-          Hi, I'm Michael Bubel.
-        </p>
+      <div className="name-text">
+        <p>Hi, I'm Michael Bubel.</p>
+        <h4>
+          I'm currently enrolled in the UCSD Full Stack Development Program and
+          projected to graduate in March of 2021.
+        </h4>
+      </div>
     </div>
   );
 }
