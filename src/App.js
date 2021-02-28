@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.css";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 class App extends Component {
   render() {
@@ -14,12 +15,23 @@ class App extends Component {
       <Router>
         <div className="App">
           <Header />
-
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/projects" exact component={Projects} />
-          </Switch>
+          <Route
+            render={({ location }) => (
+              <TransitionGroup>
+                <CSSTransition
+                  timeout={350}
+                  classNames="fade"
+                  key={location.key}
+                >
+                  <Switch location={location}>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/about" component={About} />
+                    <Route path="/projects" exact component={Projects} />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+            )}
+          />
 
           <Footer />
         </div>
