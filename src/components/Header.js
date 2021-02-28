@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 function Header(props) {
   return (
-    <div>
+    <div className="header">
       <ul>
-        <li>
+        
           <Link to="/">Home</Link>
-        </li>
-        <li>
+        
+        
           <Link to="/about">About</Link>
-        </li>
-        <li>
+        
+        
           <Link to="/projects">Projects</Link>
-        </li>
+        
       </ul>
     </div>
   );

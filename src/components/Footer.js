@@ -1,25 +1,24 @@
 function Footer(props) {
   return (
-    <div>
+    <div className="footer fixed-bottom">
       <ul>
-        <li>
+        
           <a
             target="_blank"
             href="https://www.linkedin.com/in/michael-bubel-b95268155/"
           >
-            LinkedIn
+            LinkedIn | 
           </a>
-        </li>
-        <li>
+       
+       
           <a target="_blank" href="https://www.facebook.com/heyitsmichaelbubel">
-            Facebook
+            | Facebook |
           </a>
-        </li>
-        <li>
+       
           <a target="_blank" href="https://github.com/mbubel">
-            GitHub
+            | GitHub
           </a>
-        </li>
+        
       </ul>
     </div>
   );
