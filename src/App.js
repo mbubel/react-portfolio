@@ -24,7 +24,7 @@ class App extends Component {
                   key={location.key}
                 >
                   <Switch location={location}>
-                    <Route path="/" exact component={Home} />
+                    <Route path="/home" exact component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/projects" exact component={Projects} />
                   </Switch>
