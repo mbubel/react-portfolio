@@ -15,12 +15,13 @@ function Projects(props) {
               target="_blank"
               src={studentReg}
               className="img-thumbnail img-fluid"
+              alt = "student registration picture"
             ></img>
             <a href="https://github.com/mbubel/student-registration">
-              <img target="_blank" src={github} className="projectIcons " />
+              <img target="_blank" src={github} className="projectIcons " alt="github icon" />
             </a>
             <a href="https://student-registration-tracker.herokuapp.com/">
-              <img target="_blank" src={heroku} className="projectIcons " />
+              <img target="_blank" src={heroku} className="projectIcons " alt ="heroku icon"/>
             </a>
           </a>
         </div>
@@ -34,12 +35,14 @@ function Projects(props) {
               target="_blank"
               src={team}
               className="img-thumbnail img-fluid"
+              alt = "fitness tracker picture"
             ></img>
             <a href="https://github.com/mbubel/fitness-tracker">
               <img
                 target="_blank"
                 src={github}
                 className="projectIcons img-fluid"
+                alt="github icon"
               />
             </a>
             <a href="https://fitness-tracker-mb.herokuapp.com/">
@@ -47,6 +50,7 @@ function Projects(props) {
                 target="_blank"
                 src={heroku}
                 className="projectIcons img-fluid"
+                alt ="heroku icon"
               />
             </a>
           </a>

@@ -12,31 +12,31 @@ function Footer(props) {
         target="_blank"
         href="https://www.linkedin.com/in/michael-bubel-b95268155/"
       >
-        <img src={linked} height="20vw" />
+        <img src={linked} height="20vw" alt="linkedin icon"/>
       </a>
       <a className="footIcons" target="_blank" href="https://github.com/mbubel">
-        <img src={github} height="20vw" />
+        <img src={github} height="20vw" alt="github icon"/>
       </a>
       <a
         className="footIcons"
         target="_blank"
         href="https://www.facebook.com/heyitsmichaelbubel"
       >
-        <img src={facebook} height="20vw" />
+        <img src={facebook} height="20vw" alt="facebook icon"/>
       </a>
       <a
         className="footIcons"
         target="_blank"
         href="mailto: michaelbubel.1989@gmail.com"
       >
-        <img src={email} height="20vw" />
+        <img src={email} height="20vw" alt="email icon"/>
       </a>
       <a
         className="footIcons"
         target="_blank"
         href="https://drive.google.com/file/d/1bVn-607BJAn7uCcHLKKJvcf-RCblEkwZ/view?usp=sharing"
       >
-        <img src={resume} height="20vw" />
+        <img src={resume} height="20vw" alt="resume icon"/>
       </a>
     </div>
   );
