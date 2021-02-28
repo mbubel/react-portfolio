@@ -9,7 +9,6 @@ function Home(props) {
           I'm currently enrolled in the UCSD Full Stack Development Program and
           projected to graduate in March of 2021.
         </h4>
-        <h5><Link to="/about">About</Link></h5>
       </div>
     </div>
   );
