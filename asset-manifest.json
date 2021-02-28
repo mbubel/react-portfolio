@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.aef7d3d4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.89c5ed6e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.89c5ed6e.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.46ee0f49.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.46ee0f49.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.a1296850.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.a1296850.js.map",
     "static/css/2.658248ec.chunk.css": "/react-portfolio/static/css/2.658248ec.chunk.css",
-    "static/js/2.dde1f6c9.chunk.js": "/react-portfolio/static/js/2.dde1f6c9.chunk.js",
-    "static/js/2.dde1f6c9.chunk.js.map": "/react-portfolio/static/js/2.dde1f6c9.chunk.js.map",
+    "static/js/2.59c89d39.chunk.js": "/react-portfolio/static/js/2.59c89d39.chunk.js",
+    "static/js/2.59c89d39.chunk.js.map": "/react-portfolio/static/js/2.59c89d39.chunk.js.map",
     "static/js/3.dd2e6417.chunk.js": "/react-portfolio/static/js/3.dd2e6417.chunk.js",
     "static/js/3.dd2e6417.chunk.js.map": "/react-portfolio/static/js/3.dd2e6417.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.658248ec.chunk.css.map": "/react-portfolio/static/css/2.658248ec.chunk.css.map",
     "static/css/main.aef7d3d4.chunk.css.map": "/react-portfolio/static/css/main.aef7d3d4.chunk.css.map",
-    "static/js/2.dde1f6c9.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.dde1f6c9.chunk.js.LICENSE.txt",
+    "static/js/2.59c89d39.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.59c89d39.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-portfolio/static/media/bear-deer-mountains-sunrise-minimalism-artwork-4k_1540751508.e428d0d4.jpg",
     "static/media/fitness-tracker.8d134573.png": "/react-portfolio/static/media/fitness-tracker.8d134573.png",
     "static/media/student-reg.1de56cd8.png": "/react-portfolio/static/media/student-reg.1de56cd8.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.a1296850.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.dde1f6c9.chunk.js",
+    "static/js/2.59c89d39.chunk.js",
     "static/css/main.aef7d3d4.chunk.css",
-    "static/js/main.89c5ed6e.chunk.js"
+    "static/js/main.46ee0f49.chunk.js"
   ]
 }
