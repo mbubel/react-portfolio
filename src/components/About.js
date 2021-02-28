@@ -1,9 +1,9 @@
 function About(props) {
   return (
     <div className="container about-text">
-      <p>
+      <h3>
       I currently reside in Hillcrest, along with my lovely girlfriend, and our menegerie of animals. We're the proud pet parents of three cats: Zero, Gambit, and Rogue, as well as a female two year old English Mastiff: Bear!
-      </p>
+      </h3>
       
     </div>
   );

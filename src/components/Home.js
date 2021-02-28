@@ -4,11 +4,11 @@ function Home(props) {
   return (
     <div className="container">
       <div className="name-text">
-        <p>Hi, I'm Michael Bubel.</p>
-        <h4>
+        <h1>Hi, I'm Michael Bubel.</h1>
+        <h5>
           I'm currently enrolled in the UCSD Full Stack Development Program and
           projected to graduate in March of 2021.
-        </h4>
+        </h5>
       </div>
     </div>
   );

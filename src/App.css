@@ -23,31 +23,36 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 2.5vw;
 }
 .header {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+  padding: 30px;
+  position: fixed;
 }
 
-.headerLink{
+.headerLink {
   color: white;
 }
 
-.headerLink:hover{
+.headerLink:hover {
   color: red;
   text-decoration: none;
 }
 
-a{
-  padding-left:30px;
-  padding-right:30px;
+.footIcons {
+  padding-left: 30px;
+  padding-right: 30px;
   padding: 30px;
 }
-
-
+.headerLink {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 30px;
+}
 .footer {
-  text-align: center;  
+  text-align: center;
+  padding: 30px;
 }
 .fade-appear,
 .fade-enter {
@@ -72,4 +77,27 @@ a{
 
 #navbarNav {
   color: white;
+}
+
+.projectLayout {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.studentReg {
+  height: 18vw;
+}
+
+#projectsGrid {
+  text-align: center;
+  color: white;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
