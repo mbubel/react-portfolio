@@ -2,7 +2,7 @@ function About(props) {
   return (
     <div className="container about-text">
       <p>
-        I'm currently enrolled in the UCSD Full Stack Development Program and projected to graduate in March of 2021.
+      I currently reside in Hillcrest, along with my lovely girlfriend, and our menegerie of animals. We're the proud pet parents of three cats: Zero, Gambit, and Rogue, as well as a female two year old English Mastiff: Bear!
       </p>
       
     </div>
