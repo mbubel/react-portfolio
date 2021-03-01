@@ -30,9 +30,9 @@ class App extends Component {
                     key={location.key}
                   >
                     <Switch location={location}>
-                      <Route path="/home" exact component={Home} />
-                      <Route path="/about" component={About} />
-                      <Route path="/projects" exact component={Projects} />
+                      <Route path="/react-portfolio/home" exact component={Home} />
+                      <Route path="/react-portfolio/about" component={About} />
+                      <Route path="/react-portfolio/projects" exact component={Projects} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>
