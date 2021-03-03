@@ -11,13 +11,13 @@ import "bootstrap/dist/css/bootstrap.css";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename="/home">
         <div className="App">
           <Header />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/home"  component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/projects" exact component={Projects} />
+            <Route path="/projects"  component={Projects} />
           </Switch>
 
           <Footer />
