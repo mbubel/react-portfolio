@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.aef7d3d4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.54d425d2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.54d425d2.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.d739db57.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d739db57.js.map",
+    "main.js": "/react-portfolio/static/js/main.d1328e90.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d1328e90.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.bbd971de.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.bbd971de.js.map",
     "static/css/2.658248ec.chunk.css": "/react-portfolio/static/css/2.658248ec.chunk.css",
     "static/js/2.04a4bd44.chunk.js": "/react-portfolio/static/js/2.04a4bd44.chunk.js",
     "static/js/2.04a4bd44.chunk.js.map": "/react-portfolio/static/js/2.04a4bd44.chunk.js.map",
-    "static/js/3.59575580.chunk.js": "/react-portfolio/static/js/3.59575580.chunk.js",
-    "static/js/3.59575580.chunk.js.map": "/react-portfolio/static/js/3.59575580.chunk.js.map",
+    "static/js/3.fa1ecf52.chunk.js": "/react-portfolio/static/js/3.fa1ecf52.chunk.js",
+    "static/js/3.fa1ecf52.chunk.js.map": "/react-portfolio/static/js/3.fa1ecf52.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.658248ec.chunk.css.map": "/react-portfolio/static/css/2.658248ec.chunk.css.map",
     "static/css/main.aef7d3d4.chunk.css.map": "/react-portfolio/static/css/main.aef7d3d4.chunk.css.map",
@@ -19,10 +19,10 @@
     "static/media/student-reg.1de56cd8.png": "/react-portfolio/static/media/student-reg.1de56cd8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d739db57.js",
+    "static/js/runtime-main.bbd971de.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.04a4bd44.chunk.js",
     "static/css/main.aef7d3d4.chunk.css",
-    "static/js/main.54d425d2.chunk.js"
+    "static/js/main.d1328e90.chunk.js"
   ]
 }
