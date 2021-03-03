@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
+import About from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
@@ -14,7 +15,8 @@ class App extends Component {
         <div className="App">
           <Header />
           <Switch>
-            <Route path="/home" exact component={Home} />
+            <Route path={["/home", "/about"]} exact component={Home} />
+            <Route path="/about" component={About} />
             <Route path="/projects" exact component={Projects} />
           </Switch>
 
